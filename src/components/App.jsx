@@ -1,5 +1,7 @@
 import React from 'react';
 
 export default React.createClass({
-  render: () => this.props.children
+  render: function () {
+    return this.props.children
+  }
 })
